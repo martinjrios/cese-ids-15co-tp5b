@@ -43,13 +43,14 @@ static const struct alumno_s MARTIN_RIOS = {
     .documento = "31.542.162",
 };
 
+//! @brief Vector donde se guardan los datos de todos los alumnos
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &ALEJANDRO_PERMINGEAT,
     &MARTIN_RIOS,
 };
 
-const int CANTIDAD_ALUMNOS = (sizeof(ALUMNOS) / sizeof(alumno_t));
+const int CANTIDAD_ALUMNOS = (sizeof(ALUMNOS) / sizeof(alumno_t));  //!< Constante para determinar la cantidad total de alumnos
 
 /*=====[Definitions of private global variables]=============================*/
 
